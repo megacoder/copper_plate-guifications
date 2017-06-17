@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg viewBox="0 0 383 43" xmlns="http://www.w3.org/2000/svg">
+  <desc>Pop-up cartouche</desc>
+
+  <defs>
+    <radialGradient id="shading" cx="90%" cy="50%" r="150%" fx="75%" fy="50%">
+      <stop offset="0%" style="stop-color:rgb(33,34,33); stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(130,130,130); stop-opacity:1"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Show outline of canvas using 'rect' element -->
+  <rect height="40" width="378" fill="url(#shading)" rx="8" ry="8" stroke="#FC7616" stroke-width="3" x="2" y="2"/>
+
+</svg>

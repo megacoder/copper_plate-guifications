@@ -1,0 +1,348 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<guifications>
+	<theme api='1'>
+		<info>
+			<name>CopperPlate</name>
+			<summary>Complement to Copper Plate</summary>
+			<description>Steampunk</description>
+			<author>Tommy Reynolds</author>
+		</info>
+		<options>
+			<date_format>%x</date_format>						<time_format>%X</time_format>
+			<warning>N/A</warning>
+			<ellipsis>...</ellipsis>
+		</options>
+		<notification type='sign-on' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has signed on' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='sign-off' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has signed off' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='away' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has gone away' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='back' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has returned' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='idle' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has gone idle' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='unidle' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='is no longer idle' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='im-message' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='2.5%'/>
+				<v_offset value='-55%'/>
+				<text format='%n:' font='Arial Bold 12' color='#E3F6F6' clipping='ellipsis-middle' width='350'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='2.5%'/>
+				<v_offset value='-15%'/>
+				<text format='%r' font='Arial 10, ' color='#E3F6F6' clipping='ellipsis-end' width='350'/>
+			</item>
+		</notification>
+		<notification type='chat-message' use_gtk='0' background='background.png' width='384' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='2.5%'/>
+				<v_offset value='-55%'/>
+				<text format='%n' font='Arial 11' color='#E3F6F6' clipping='ellipsis-end' width='150'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='55%'/>
+				<v_offset value='-55%'/>
+				<text format='%c' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='150'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='2.5%'/>
+				<v_offset value='-15%'/>
+				<text format='%r' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='350'/>
+			</item>
+		</notification>
+		<notification type='nick-highlight' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='2.5%'/>
+				<v_offset value='-60%'/>
+				<text format='%n:' font='Arial Bold 12' color='#E3F6F6' clipping='ellipsis-middle' width='350'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='2.5%'/>
+				<v_offset value='-20%'/>
+				<text format='%r' font='Arial 10, ' color='#E3F6F6' clipping='ellipsis-end' width='350'/>
+			</item>
+		</notification>
+		<notification type='chat-join' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 11' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has joined %c' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='chat-part' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n' font='Arial 11' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has left %c' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='chat-invite' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%n invited' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='you to %X' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='typing' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%c' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='is typing' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='typing-stopped' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%c' font='Arial 10' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has stopped typing' font='Arial 10' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+		<notification type='topic-changed' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='center'/>
+				<h_offset value='0'/>
+				<v_offset value='0'/>
+				<text format='%n changed the topic' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+			<item type='text'>
+				<position value='center'/>
+				<h_offset value='0'/>
+				<v_offset value='10%'/>
+				<text format='of %C to' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+			<item type='text'>
+				<position value='center'/>
+				<h_offset value='0'/>
+				<v_offset value='20%'/>
+				<text format='%r' font='Arial 11' color='#E3F6F6' clipping='ellipsis-end' width='173'/>
+			</item>
+		</notification>
+		<notification type='warned' use_gtk='0' background='background.png' width='382' height='44'>
+			<item type='icon'>
+				<position value='south-east'/>
+				<h_offset value='-6'/>
+				<v_offset value='-6'/>
+				<icon type='buddy' size='little'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-50%'/>
+				<text format='%W' font='Arial 11' color='#E3F6F6' clipping='ellipsis-end' width='145'/>
+			</item>
+			<item type='text'>
+				<position value='south-west'/>
+				<h_offset value='13%'/>
+				<v_offset value='-18%'/>
+				<text format='has warned you' font='Arial 11' color='#E3F6F6' clipping='ellipsis-middle' width='173'/>
+			</item>
+		</notification>
+	</theme>
+</guifications>
